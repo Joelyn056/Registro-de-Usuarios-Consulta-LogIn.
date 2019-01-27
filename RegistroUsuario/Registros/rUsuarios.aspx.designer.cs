@@ -67,6 +67,33 @@ namespace RegistroUsuario.Registros {
         protected global::System.Web.UI.WebControls.TextBox ConfirmarContraseñaTextBox;
         
         /// <summary>
+        /// EmailTexbox control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox EmailTexbox;
+        
+        /// <summary>
+        /// TelefonoTextBox control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TelefonoTextBox;
+        
+        /// <summary>
+        /// CelularTextBox control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox CelularTextBox;
+        
+        /// <summary>
         /// CargoDropDownList control.
         /// </summary>
         /// <remarks>

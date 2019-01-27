@@ -13,7 +13,7 @@
 
             <%--UsuarioID--%>
             <div class="form-group row">
-                <label for="UsuarioIdTextBox" class="col-md-5 control-label input-sm" style="font-size: medium">UsuarioId</label>
+                <label for="UsuarioIdTextBox" class="col-md-3 control-label input-sm" style="font-size: medium">UsuarioId</label>
                 <div class="col-md-1 col-sm-2 col-xs-4">
                     <asp:TextBox ID="UsuarioIdTextBox" runat="server" placeholder="0" class="form-control input-sm" Style="font-size: medium"></asp:TextBox>
                 </div>
@@ -47,7 +47,7 @@
         <div class="form-group row">
             <label for="ContraseñaTextBox" class="col-md-3 control-label input-sm" style="font-size: medium">Contraseña</label>
             <div class="col-md-8">
-                <asp:TextBox ID="ContraseñaTextBox" runat="server" class="form-control input-sm" Style="font-size: medium"></asp:TextBox>
+                <asp:TextBox ID="ContraseñaTextBox" runat="server" class="form-control input-sm" type="password" Style="font-size: medium"></asp:TextBox>
 
             </div>
         </div>
@@ -55,9 +55,37 @@
 
         <%--Confirmar Contraseña--%>
         <div class="form-group row">
-            <label for="ConfirmarContraseñaTextBox" class="col-md-3 control-label input-sm" style="font-size: medium">Confirmar Contraseña</label>
+            <label for="ConfirmarContraseñaTextBox" class="col-md-3 control-label input-sm"  style="font-size: medium">Confirmar Contraseña</label>
             <div class="col-md-8">
-                <asp:TextBox ID="ConfirmarContraseñaTextBox" runat="server" class="form-control input-sm" Style="font-size: medium"></asp:TextBox>
+                <asp:TextBox ID="ConfirmarContraseñaTextBox" runat="server" class="form-control input-sm" type= "password" Style="font-size: medium"></asp:TextBox>
+
+            </div>
+        </div>
+
+         <%--Email--%>
+        <div class="form-group row">
+            <label for="EmailTextBox" class="col-md-3 control-label input-sm"  style="font-size: medium">Email</label>
+            <div class="col-md-8">
+                <asp:TextBox ID="EmailTexbox" runat="server" class="form-control input-sm" type="text" Style="font-size: medium"></asp:TextBox>
+
+            </div>
+        </div>
+
+
+          <%--Telefono--%>
+        <div class="form-group row">
+            <label for="TelefonoTextBox" class="col-md-3 control-label input-sm"  style="font-size: medium">Telefono</label>
+            <div class="col-md-8">
+                <asp:TextBox ID="TelefonoTextBox" runat="server" class="form-control input-sm" type="Tel" Style="font-size: medium"></asp:TextBox>
+
+            </div>
+        </div>
+
+          <%--Celular--%>
+        <div class="form-group row">
+            <label for="CelularTextBox" class="col-md-3 control-label input-sm"  style="font-size: medium">Celular</label>
+            <div class="col-md-8">
+                <asp:TextBox ID="CelularTextBox" runat="server" class="form-control input-sm" type="Cel" Style="font-size: medium"></asp:TextBox>
 
             </div>
         </div>
