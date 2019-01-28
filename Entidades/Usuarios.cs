@@ -15,8 +15,11 @@ namespace Entidades
         public string Nombres { get; set; }
         public string NombreUsuario { get; set; }
         public string Contraseña { get; set; }
-        public string ConfirmarContraseña { get; set; }
+        public string ConfirmarContraseña { get; set; }       
         public string Cargo { get; set; }
+        public string Email { get; set; }
+        public string Telefono { get; set; }
+        public string Celular { get; set; }
 
         public Usuarios()
         {
@@ -26,9 +29,12 @@ namespace Entidades
             Contraseña = string.Empty;
             ConfirmarContraseña = string.Empty;
             Cargo = string.Empty;
+            Email = string.Empty;
+            Telefono = string.Empty;
+            Celular = string.Empty;
         }
 
-        public Usuarios(int usuariosId, string nombres, string nombreUsuario, string contraseña, string confirmarContraseña, string cargo)
+        public Usuarios(int usuariosId, string nombres, string nombreUsuario, string contraseña, string confirmarContraseña, string cargo, string email, string telefono, string celular)
         {
             UsuariosId = usuariosId;
             Nombres = nombres;
@@ -36,6 +42,9 @@ namespace Entidades
             Contraseña = contraseña;
             ConfirmarContraseña = confirmarContraseña;
             Cargo = cargo;
+            Email = email;
+            Telefono = telefono;
+            Celular = celular;
         }
     }
 }

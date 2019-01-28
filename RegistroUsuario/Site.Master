@@ -39,7 +39,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Consultas</a>
                             <div class="dropdown-menu">
-                                <a href="/Consultas/cUsuarios.aspx" class="dropdown-item">Usuarios</a>
+                                <a href="/Consultas/cUsuario.aspx" class="dropdown-item">Usuarios</a>
                             </div>
                         </li>
                     </ul>

@@ -18,6 +18,9 @@
                             <asp:ListItem>Nombres</asp:ListItem>
                             <asp:ListItem>Nombre de usuario</asp:ListItem>
                             <asp:ListItem>Cargo</asp:ListItem>
+                            <asp:ListItem>Email</asp:ListItem>
+                            <asp:ListItem>Telefono</asp:ListItem>
+                            <asp:ListItem>Celular</asp:ListItem>
                     </asp:DropDownList>
             </div>
             <div class="col-md-6">

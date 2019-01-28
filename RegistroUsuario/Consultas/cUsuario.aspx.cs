@@ -39,8 +39,23 @@ namespace RegistroUsuario.Consultas
                 case 3: //Nombre Usuario
                     filtro = c => c.NombreUsuario.Contains(CriterioTextBox.Text);
                     break;
-                case 4: //Cargo
+                case 4: //Contraseña
+                    filtro = c => c.Contraseña.Contains(CriterioTextBox.Text);
+                    break;
+                case 5: //Confirmar Contrase;a
+                    filtro = c => c.ConfirmarContraseña.Contains(CriterioTextBox.Text);
+                    break;
+                case 6: //Cargo
                     filtro = c => c.Cargo.Contains(CriterioTextBox.Text);
+                    break;
+                case 7: ///  Email
+                    filtro = c => c.Email.Contains(CriterioTextBox.Text);
+                    break;
+                case 8: // Telefono
+                    filtro = c => c.Telefono.Contains(CriterioTextBox.Text);
+                    break;
+                case 9: //Celular
+                    filtro = c => c.Celular.Contains(CriterioTextBox.Text);
                     break;
 
             }
