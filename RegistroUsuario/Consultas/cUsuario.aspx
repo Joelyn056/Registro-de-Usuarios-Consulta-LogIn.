@@ -30,6 +30,25 @@
                 <asp:Button ID="BuscarButton" runat="server" Text="Buscar" class="btn btn-info btn-md" OnClick="BuscarButton_Click" />
             </div>
         </div>
+
+        <%--Fechas para consulta--%>
+    <div class="form-group">
+        <div class="col-md-12">
+                <label for="DesdeTextBox" class="col-md-1 control-label input-sm" style="font-size: medium">Desde</label>
+                <div class="col-md-4">
+                    <asp:TextBox ID="DesdeTextBox" TextMode="Date" runat="server" class="form-control input-sm" Style="font-size: medium" Visible="true" ></asp:TextBox>
+                </div>
+
+                <label for="HastaTextBox" class="col-md-1 control-label input-sm" style="font-size: medium">Hasta</label>
+                <div class="col-md-4">
+                    <asp:TextBox ID="HastaTextBox" TextMode="Date" runat="server" class="form-control input-sm" Style="font-size: medium" Visible="true" ></asp:TextBox>
+                </div>
+                <asp:CheckBox ID="FechaCheckBox" runat="server" Checked="True" Visible="False"  />
+        </div>
+     </div>
+    <br/>
+    <br />
+
     <%--Grid--%>
     <div>
         <asp:GridView ID="DatosGridView" runat="server" class="table table-condensed tabled-bordered table-responsive" CellPadding="6" ForeColor="#333333" GridLines="None">
